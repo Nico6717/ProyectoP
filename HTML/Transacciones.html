@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transacciones</title>
+    <link rel="stylesheet" href="../CSS/Transacciones.css">
+    <script src="../JS/Transacciones.js" defer></script>
+</head>
+<body>
+    <header>
+        <ul class="Barra">
+            <li><a href="Inicio.html">Inicio</a></li>
+            <li><a href="Transacciones.html">Transacciónes</a></li>
+            <li><a href="Graficas.html">Graficas</a></li>
+            <li><a href="Perfil.html">Perfil</a></li>
+            
+        </ul>
+    </header>
+    <h1 class="Titulo">
+        Registro de transacciones
+     </h1>
+
+     <p>
+        <div class="table">
+    
+            <table border="1" class="mitabla">
+                <tr> 
+                    <th> Fecha</th> 
+                    <th>Tipo de gasto </th> 
+                    <th>Cantidad gastada </th> 
+                    <th>Cantidad disponible </th> 
+                <tr>
+             <tbody id="MOST"></tbody>
+               
+            </table>
+        </div>
+     </p>
+     <hr>
+     <div class="items">
+        <form class="Form">
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" required><br><br>
+
+            <label >Tipo de gasto:</label> <br>
+            <select >
+                <option selected="true">Transporte</option>
+                <option>Alimento</option>
+                <option>Factura</option>
+            </select><br>
+            
+            <label for="cantidadGastada">Cantidad gastada:</label>
+            <input type="number" id="cantidadGastada" required><br><br>
+            
+            <label for="cantidadDisponible">Cantidad disponible:</label>
+            <input type="number" id="cantidadDisponible" required><br><br>
+            
+            <button type="submit" onclick="">Agregar Transacción</button>
+        </form>
+     </div>
+
+     <hr>
+
+
+        <div class="pie"> 
+        
+            Nicolás Cera de Lima  y Duvan Acuña Melendez<br>
+            Telefono 3162679386-3003660201 <br>
+            Barranquilla - Colombia 
+            
+        </div>
+</body>
+</html>

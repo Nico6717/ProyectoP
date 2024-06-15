@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(255, 255, 255);             
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;             
+    margin: 0; 
+}
+
+header{
+    text-align: right; 
+    background-color: #ff6f61;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 3.5vh;
+    
+    
+}
+.Titulo{
+    text-align: center;
+    font-family: Garamond;
+    font-size: 8vh;
+}
+
+.pie{ 
+    text-align: center; 
+    background-color: #ff6f61;
+    color: white;
+}
+
+.Barra li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    padding-right: 25px;
+    display: block;
+}
+
+.Barra li{
+    display: inline-block;
+    text-align: center;
+}
+
+.Barra li a:hover{
+    background: #8a4c47;
+    border-radius: 2vh;
+
+}
+
+.mitabla{
+    margin: 0 auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+.table {
+    margin: 20px auto;
+    width: 90%;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(250, 3, 3, 0.1);
+}
+
+
+.mitabla th, .mitabla td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.Form{
+    border: 2px rgb(241, 221, 184) solid;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 10px;
+    padding-bottom: 10%;
+    background-color: rgb(255, 216, 145);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}

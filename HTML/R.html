@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../CSS/R.CSS">
+
+</head>
+<body>
+    <div class="Formulario">
+        <h1>Registro</h1>
+        <form method="post"  >
+            <div class="N">
+                <label >Nombre:</label><input type="text" id="NO" placeholder="Ingrese el nombre"><br><br>
+            </div>
+            <div class="A">
+                <label >Apellido:</label><input type="text" id="AP" placeholder="Ingrese el apellido"><br><br>
+            </div>
+
+            <div class="E">
+                <label >Email:</label><input type="email" id="CORREO" placeholder="Ingrese el correo"><br><br>
+            </div>
+
+            <div class="T">
+                <label >Telefono:</label><input type="number" id="TE" placeholder="Ingrese el telefono"><br><br>
+            </div>
+            <div class="U">
+                <label >Usuario:</label><input type="text" id="US" placeholder="Ingrese el usuario"><br><br>
+            </div>
+            <div class="C">
+                <label >Contraseña:</label><input type="password" id="CO" placeholder="Ingrese la contraseña"><br><br>
+            </div>
+
+            <label> Rol</label> <br>
+                <label for="AD">Administrador</label> 
+                <input type="radio" name="R" id="AD" />
+                <label for="USUA">Usuario</label> 
+                <input type="radio" name="R" id="USUA" /><br>
+            <div class="B">
+                <input type="button" onclick="LOGD()" value="Registrarse"><br><br>
+            </div>
+        </form>
+        <p>¿Tienes una cuenta? <a href="../index.html" id="Registro" class="no-link">Inicia sesión</a></p>
+        
+
+    </div>
+    <script src="../JS/Registro.js"></script>
+    
+</body>
+</html>

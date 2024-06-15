@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(255, 255, 255);             
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;             
+    margin: 0; 
+}
+
+header{
+    text-align: right; 
+    background-color: #ff6f61;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 3.5vh;
+    
+    
+}
+
+
+.parrafo{
+    font-family: Helvetica;
+    font-size: 29px; 
+    padding-right: 4%;
+    text-align: justify;
+}
+
+.Titulo{
+    text-align: center;
+    font-family: Garamond;
+    font-size: 8vh;
+}
+
+
+.Barra li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    padding-right: 25px;
+    display: block;
+}
+
+.Barra li{
+    display: inline-block;
+    text-align: center;
+}
+
+.Barra li a:hover{
+    background: #8a4c47;
+    border-radius: 2vh;
+
+}
+.pie{ 
+    text-align: center; 
+    background-color: #ff6f61;
+    color: white;
+}
+
+.mitabla{
+    margin: 0 auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+.table {
+    margin: 20px auto;
+    width: 90%;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(250, 3, 3, 0.1);
+}
+
+
+.mitabla th, .mitabla td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}

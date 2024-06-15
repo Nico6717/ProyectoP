@@ -1,0 +1,39 @@
+[
+    {
+        "id":1,
+        "Usuario":"Ana123",
+        "Nombre": "Ana",
+        "Apellido":"Garcia",
+        "Correo":"Anagarcia123@gmail.com",
+        "Telefono":"+57 315 3782947",
+        "Rol":"Administrador",
+        "Contraseña":"Ag451@"
+    },{
+        "id":2,
+        "Usuario":"PedroXZ",
+        "Nombre":"Pedro",
+        "Apellido":"Altamar",
+        "Correo":"Pedroski@gmail.com",
+        "Telefono":"+57 317 3711147",
+        "Rol":"Usuario",
+        "Contraseña":"Pa123@"
+    },{
+        "id":3,
+        "Usuario":"Juanito",
+        "Nombre":"Juan",
+        "Apellido":"Lobos",
+        "Correo":"JLobos16@gmail.com",
+        "Telefono":"+57 315 3782947",
+        "Rol":"Usuario",
+        "Contraseña":"123456789"
+    },{
+        "id":4,
+        "Usuario":"Ramoncito",
+        "Nombre":"Ramon",
+        "Apellido":"De Lima",
+        "Correo":"RD2024@gmail.com",
+        "Telefono":"+57 316 3333147",
+        "Rol":"Administrador",
+        "Contraseña":"QWERTY"
+    }
+]
