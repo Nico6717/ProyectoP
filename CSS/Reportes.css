@@ -21,12 +21,14 @@ header{
     font-size: 29px; 
     padding-right: 4%;
     text-align: justify;
+    padding: 0 50px 10px 10px
 }
 
 .Titulo{
     text-align: center;
     font-family: Garamond;
     font-size: 8vh;
+    padding: 0 50px 10px 10px
 }
 
 .pie{ 

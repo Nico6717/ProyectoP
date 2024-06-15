@@ -47,7 +47,15 @@ const LOG = () => {
                 var usuarioValido = data.find(Buscar => Buscar.Usuario == USUINGRESADO && Buscar.Contraseña == COINGRESADO);
                 if (usuarioValido) {
                     alert("Inicio de sesión exitoso");
-                    localStorage.setItem("Usuario", JSON.stringify(USUINGRESADO));
+                    let Datos={
+                        ID:Buscar.id,
+                        Nombre:Buscar.Nombre,
+                        Apellido:Buscar.Apellido,
+                        Usuario:Buscar.Usuario,
+                        Correo:Buscar.Correo,
+                        Telefono:Buscar.Telefono
+                    }
+                    localStorage.setItem("Usuario", JSON.stringify(Datos));
                     if (usuarioValido.Rol === "Administrador") {
                         window.location.href = "HTML/Reportes.html";
                     } else {
