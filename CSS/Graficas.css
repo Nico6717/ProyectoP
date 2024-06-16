@@ -14,6 +14,13 @@ header{
 
 }
 
+#mensajeBienvenida{
+    text-align: left;
+    font-family: Garamond;
+    font-size: 8vh;
+    padding: 0 50px 10px 10px
+}
+
 .parrafo{
     font-family: Helvetica;
     font-size: 29px; 

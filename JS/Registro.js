@@ -56,6 +56,7 @@ const LOG = () => {
 }
 
 
+
 document.addEventListener('DOMContentLoaded', function() {
     const userTableBody = document.querySelector('#MOST');
     let users = [];
@@ -111,4 +112,15 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     cargarUsuarios();
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    var nombre = localStorage.getItem('NOMBRE');
+    var apellido = localStorage.getItem('APELLIDO');
+    if (nombre && apellido) {
+        var mensaje = "Bienvenid@ " + nombre +" "+ apellido + "!";
+        var mensajeBienvenida = document.getElementById('mensajeBienvenida');
+        mensajeBienvenida.textContent = mensaje;
+    }
 });
