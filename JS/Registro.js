@@ -54,9 +54,6 @@ const LOG = () => {
         alert("La contraseña debe tener entre 6 y 15 caracteres.");
     }
 }
-
-
-
 document.addEventListener('DOMContentLoaded', function() {
     const userTableBody = document.querySelector('#MOST');
     let users = [];
